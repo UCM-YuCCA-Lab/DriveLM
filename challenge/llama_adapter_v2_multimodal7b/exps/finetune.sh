@@ -13,4 +13,4 @@ python -u -m torch.distributed.launch --master_port=1112 --nproc_per_node=3 --us
  --llama_path "$LLAMA_PATH" \
  --output_dir "$OUTPUT_DIR" \
  --pretrained_path "$PRETRAINED_PATH" \
- &>> "$OUTPUT_DIR"/output.log &
+ &>> "$OUTPUT_DIR"/output.log

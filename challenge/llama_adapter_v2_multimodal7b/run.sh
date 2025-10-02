@@ -1,5 +1,5 @@
 #!/bin/bash
-num_gpus=1
+num_gpus=3
 llama_dir="/data/shared/llama2-7b-weights"
 
 if [ "$1" == "lora-bias" ]; then

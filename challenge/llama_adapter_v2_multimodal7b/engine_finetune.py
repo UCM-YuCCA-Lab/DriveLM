@@ -34,6 +34,8 @@ def train_one_epoch(model: LLaMA_adapter,
             lr_sched.adjust_learning_rate(optimizer, data_iter_step / len(data_loader) + epoch, args)
 
         imgs = imgs.to(device, non_blocking=True)
+        examples = examples.to(device, non_blocking=True)
+        labels = labels.to(device, non_blocking=True)
         with torch.cuda.amp.autocast():
              c_loss, m_loss = model(examples, labels, imgs)
         loss = c_loss  + m_loss * 0

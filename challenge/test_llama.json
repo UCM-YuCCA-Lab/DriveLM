@@ -33,11 +33,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_BACK,1088.3,497.5>? Please select the correct answer from the following options: A. Going ahead. B. Stopped. C. Back up. D. Turn left."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_BACK,1088.3,497.5>? Please select the correct answer from the following options: A. Turn right. B. Turn left. C. Stopped. D. Reverse parking."
             },
             {
                 "from": "gpt",
-                "value": "D"
+                "value": "B"
             }
         ]
     },
@@ -159,7 +159,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the left. The ego vehicle is driving fast. B. The ego vehicle is going straight. The ego vehicle is driving fast. C. The ego vehicle is slightly steering to the left. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving with normal speed."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed. B. The ego vehicle is going straight. The ego vehicle is driving fast. C. The ego vehicle is going straight. The ego vehicle is driving slowly. D. The ego vehicle is steering to the right. The ego vehicle is driving with normal speed."
             },
             {
                 "from": "gpt",
@@ -306,11 +306,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the right. The ego vehicle is driving very fast. B. The ego vehicle is steering to the left. The ego vehicle is driving fast. C. The ego vehicle is steering to the left. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving slowly."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is driving slowly. B. The ego vehicle is steering to the left. The ego vehicle is driving slowly. C. The ego vehicle is steering to the left. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving very fast."
             },
             {
                 "from": "gpt",
-                "value": "D"
+                "value": "A"
             }
         ]
     },
@@ -348,7 +348,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT_LEFT,231.5,472.1>? Please select the correct answer from the following options: A. Stopped. B. Going ahead. C. Turn right. D. Turn left."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT_LEFT,231.5,472.1>? Please select the correct answer from the following options: A. Reverse parking. B. Going ahead. C. Turn right. D. Drive backward."
             },
             {
                 "from": "gpt",
@@ -474,11 +474,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the left. The ego vehicle is driving very fast. B. The ego vehicle is going straight. The ego vehicle is driving slowly. C. The ego vehicle is going straight. The ego vehicle is not moving. D. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is driving slowly. B. The ego vehicle is going straight. The ego vehicle is driving fast. C. The ego vehicle is slightly steering to the left. The ego vehicle is driving slowly. D. The ego vehicle is going straight. The ego vehicle is driving with normal speed."
             },
             {
                 "from": "gpt",
-                "value": "B"
+                "value": "A"
             }
         ]
     },
@@ -516,11 +516,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_BACK,1568.3,505.0>? Please select the correct answer from the following options: A. Stopped. B. Turn left. C. Going ahead. D. Turn right."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_BACK,1568.3,505.0>? Please select the correct answer from the following options: A. Drive backward. B. Turn right. C. Stopped. D. Going ahead."
             },
             {
                 "from": "gpt",
-                "value": "C"
+                "value": "D"
             }
         ]
     },
@@ -642,11 +642,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the left. The ego vehicle is driving slowly. B. The ego vehicle is slightly steering to the right. The ego vehicle is driving very fast. C. The ego vehicle is going straight. The ego vehicle is driving fast. D. The ego vehicle is steering to the left. The ego vehicle is driving with normal speed."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is steering to the left. The ego vehicle is driving fast. B. The ego vehicle is going straight. The ego vehicle is driving slowly. C. The ego vehicle is steering to the right. The ego vehicle is driving slowly. D. The ego vehicle is going straight. The ego vehicle is driving fast."
             },
             {
                 "from": "gpt",
-                "value": "C"
+                "value": "D"
             }
         ]
     },
@@ -684,7 +684,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,714.3,503.6>? Please select the correct answer from the following options: A. Stopped. B. Back up. C. Turn left. D. Going ahead."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,714.3,503.6>? Please select the correct answer from the following options: A. Reverse parking. B. Back up. C. Drive backward. D. Going ahead."
             },
             {
                 "from": "gpt",
@@ -789,11 +789,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the right. The ego vehicle is driving slowly. B. The ego vehicle is slightly steering to the left. The ego vehicle is driving slowly. C. The ego vehicle is going straight. The ego vehicle is driving slowly. D. The ego vehicle is slightly steering to the left. The ego vehicle is driving with normal speed."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is not moving. B. The ego vehicle is going straight. The ego vehicle is driving slowly. C. The ego vehicle is steering to the right. The ego vehicle is driving slowly. D. The ego vehicle is slightly steering to the left. The ego vehicle is driving fast."
             },
             {
                 "from": "gpt",
-                "value": "C"
+                "value": "B"
             }
         ]
     },
@@ -831,7 +831,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,767.5,513.3>? Please select the correct answer from the following options: A. Reverse parking. B. Back up. C. Turn right. D. Stopped."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,767.5,513.3>? Please select the correct answer from the following options: A. Back up. B. Stopped. C. Turn right. D. Going ahead."
             },
             {
                 "from": "gpt",
@@ -936,11 +936,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is not moving. B. The ego vehicle is steering to the left. The ego vehicle is driving very fast. C. The ego vehicle is steering to the right. The ego vehicle is driving slowly. D. The ego vehicle is steering to the right. The ego vehicle is driving fast."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the left. The ego vehicle is driving very fast. B. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed. C. The ego vehicle is going straight. The ego vehicle is not moving. D. The ego vehicle is going straight. The ego vehicle is driving slowly."
             },
             {
                 "from": "gpt",
-                "value": "A"
+                "value": "C"
             }
         ]
     },
@@ -978,11 +978,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT_RIGHT,850.0,484.2>? Please select the correct answer from the following options: A. Reverse parking. B. Back up. C. Going ahead. D. Turn left."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT_RIGHT,850.0,484.2>? Please select the correct answer from the following options: A. Going ahead. B. Back up. C. Drive backward. D. Stopped."
             },
             {
                 "from": "gpt",
-                "value": "C"
+                "value": "A"
             }
         ]
     },
@@ -1083,11 +1083,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is not moving. B. The ego vehicle is slightly steering to the left. The ego vehicle is driving slowly. C. The ego vehicle is steering to the left. The ego vehicle is driving very fast. D. The ego vehicle is steering to the right. The ego vehicle is driving very fast."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the right. The ego vehicle is driving slowly. B. The ego vehicle is steering to the right. The ego vehicle is driving very fast. C. The ego vehicle is going straight. The ego vehicle is not moving. D. The ego vehicle is steering to the right. The ego vehicle is driving slowly."
             },
             {
                 "from": "gpt",
-                "value": "A"
+                "value": "C"
             }
         ]
     },
@@ -1125,7 +1125,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,1458.3,492.5>? Please select the correct answer from the following options: A. Going ahead. B. Turn left. C. Stopped. D. Back up."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,1458.3,492.5>? Please select the correct answer from the following options: A. Going ahead. B. Reverse parking. C. Stopped. D. Back up."
             },
             {
                 "from": "gpt",
@@ -1230,11 +1230,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is driving slowly. B. The ego vehicle is going straight. The ego vehicle is not moving. C. The ego vehicle is slightly steering to the left. The ego vehicle is driving very fast. D. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is not moving. B. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed. C. The ego vehicle is going straight. The ego vehicle is driving very fast. D. The ego vehicle is going straight. The ego vehicle is driving fast."
             },
             {
                 "from": "gpt",
-                "value": "B"
+                "value": "A"
             }
         ]
     },
@@ -1272,7 +1272,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,1321.7,495.0>? Please select the correct answer from the following options: A. Turn left. B. Turn right. C. Back up. D. Going ahead."
+                "value": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,1321.7,495.0>? Please select the correct answer from the following options: A. Turn left. B. Reverse parking. C. Turn right. D. Going ahead."
             },
             {
                 "from": "gpt",
@@ -1377,11 +1377,11 @@
         "conversations": [
             {
                 "from": "human",
-                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the left. The ego vehicle is driving fast. B. The ego vehicle is steering to the left. The ego vehicle is driving very fast. C. The ego vehicle is slightly steering to the left. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving with normal speed."
+                "value": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is driving with normal speed. B. The ego vehicle is steering to the right. The ego vehicle is driving very fast. C. The ego vehicle is going straight. The ego vehicle is driving slowly. D. The ego vehicle is going straight. The ego vehicle is not moving."
             },
             {
                 "from": "gpt",
-                "value": "D"
+                "value": "A"
             }
         ]
     }

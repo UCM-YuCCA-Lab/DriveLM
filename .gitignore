@@ -159,3 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .DS_Store
+
+# NuScenes dataset
+challenge/llama_adapter_v2_multimodal7b/data/nuscenes/*
+downloaded_data/*
+
+# Output
+challenge/llama_adapter_v2_multimodal7b/output*

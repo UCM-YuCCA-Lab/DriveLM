@@ -10,7 +10,7 @@ from openai import OpenAI
 
 class GPTEvaluation:
     def __init__(self):
-        self.client = OpenAI(api_key="you need to use your own openai key for evaluation on your local machine")
+        self.client = None
 
     def call_chatgpt(self, chatgpt_messages, max_tokens=40, model="gpt-3.5-turbo"):
         response = self.client.chat.completions.create(
@@ -28,6 +28,10 @@ class GPTEvaluation:
         return messages
     
     def forward(self, data):
+        # Init here to avoid the lock error in multiprocessing
+        if self.client is None:
+            self.client = OpenAI(api_key="your-api-key-here")  # Replace with your actual API key
+            
         answer, GT = data
         prompts = "Rate my answer based on the correct answer out of 100, with higher scores indicating that the answer is closer to the correct answer, and you should be accurate to single digits like 62, 78, 41,etc. Output the number only"
         prompts = prompts + "This is the correct answer: " + GT + "This is my answer: " + answer

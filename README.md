@@ -1,3 +1,30 @@
+### Setup DriveLM on YuCCA Lambda Vector
+1. The environment is already setup in `/data/miniconda3/envs/llama_adapter_v2`. You can verify it with `conda env list`.
+To use, simply run `conda activate llama_adapter_v2`.
+2. Clone this repo and link the shared data to correct places. Run the following command from the root directory of this repo:
+```
+ln -s /data/shared/drivelm/test_eval.json challenge/test.json
+ln -s /data/shared/drivelm/test_eval.json challenge/test_eval.json
+ln -s /data/shared/drivelm/test_eval.json challenge/test_llama.json
+ln -s /data/shared/drivelm/train_sample.json challenge/data/train_sample.json
+ln -s /data/shared/drivelm/nuscenes_subset_drivelm challenge/llama_adapter_v2_multimodal7b/data/nuscenes
+```
+3. Fill in your OpenAI GPI key in `challenge/gpt_eval.py`, line 33.
+4. To run LLaMA-Adapter finetuning, go to `challenge/llama_adapter_v2_multimodal7b` and run:
+```
+bash ./run.sh <bias/lora-bias/caption>
+```
+The option of bias, lora-bias or caption indicate which pretrained model to use. The bias model gives the best results in my experiments.
+
+To run evaluation, go to `challenge` and run:
+```
+bash ./eval.sh <bias/lora-bias/caption>
+```
+
+### Setup DriveLM on Other Machines
+If you are setting up on other machines, please follow their original README below.
+
+
 > [!IMPORTANT]
 > 🌟 Stay up to date at [opendrivelab.com](https://opendrivelab.com/#news)!
 

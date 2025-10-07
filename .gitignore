@@ -166,3 +166,8 @@ downloaded_data/*
 
 # Output
 challenge/llama_adapter_v2_multimodal7b/output*
+challenge/output*
+
+# Data
+challenge/test*.json
+challenge/data/train_sample.json
